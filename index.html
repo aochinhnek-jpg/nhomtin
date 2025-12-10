@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Noel 2025 là ngày nào?</title>
+<style>
+/* ----- N?N VÀ TUY?T ----- */
+html, body { height: 100%; margin: 0; padding: 0; scroll-behavior: smooth; }
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#0f172a, #071027);
+    color: #fff;
+    padding: 40px 0;
+    overflow-x: hidden;
+}
+#snow-canvas, #snow-canvas2 {
+    position: fixed;
+    left: 0; top: 0;
+    width: 100vw; height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+/* ----- CONTAINER BÀI VI?T ----- */
+.container {
+    width: 70%;
+    margin: auto;
+    background: rgba(0,0,0,0.35);
+    padding: 35px;
+    border-radius: 12px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 25px rgba(0,255,255,0.12);
+    position: relative;
+    z-index: 10;
+}
+h1, h2 { text-shadow: 0 0 10px cyan; margin-top: 30px; }
+h1 { text-align: center; font-size: 30px; }
+.post-info { text-align: center; margin-top: 10px; opacity: 0.8; }
+
+/* ----- XEM NHANH ----- */
+.toc-box {
+    background: rgba(0, 60, 90, 0.3);
+    padding: 18px;
+    border: 1px solid cyan;
+    border-radius: 8px;
+    margin: 30px 0;
+}
+.toc-box ul { padding-left: 0; list-style: none; }
+.toc-box li { margin: 6px 0; cursor: pointer; }
+
+/* M?c chính 1-5 màu cyan, hover g?ch chân */
+.toc-box a.main { color: #7dfcff; text-decoration: none; }
+.toc-box a.main:hover { text-decoration: underline; }
+
+/* Các m?c có sub và sub-list */
+.toc-sub { display: none; margin-left: 18px; }
+.toc-sub a { color: #fff; text-decoration: none; }
+.toc-sub a:hover { text-decoration: underline; }
+
+/* N?i dung bài vi?t */
+p { font-size: 16px; opacity: 0.9; line-height: 1.6; }
+h2 { border-left: 4px solid cyan; padding-left: 10px; }
+</style>
+</head>
+
+<body>
+<!-- Canvas tuy?t roi -->
+<canvas id="snow-canvas"></canvas>
+<canvas id="snow-canvas2"></canvas>
+
+<div class="container">
+    <div class="countdown-box">
+    <div class="count-title">?? Ð?m ngu?c d?n Giáng Sinh ??</div>
+    <div class="count-time" id="count"></div>
+</div>
+
+<style>
+.countdown-box {
+    margin: 25px 0;
+    padding: 20px 25px;
+    background: linear-gradient(135deg, rgba(0,255,255,0.15), rgba(0,120,160,0.15));
+    border: 1px solid rgba(0,255,255,0.4);
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0,255,255,0.25);
+    text-align: center;
+    backdrop-filter: blur(4px);
+}
+
+.count-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #7dfcff;
+    text-shadow: 0 0 12px cyan;
+    margin-bottom: 12px;
+}
+
+.count-time {
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 0;
+    letter-spacing: 1.2px;
+    text-shadow: 0 0 10px rgba(0,255,255,0.7);
+}
+
+/* Nút nh?p nháy nh? */
+.count-time::after {
+    content: " ??";
+    animation: snowblink 1.4s infinite alternate;
+}
+@keyframes snowblink {
+    from { opacity: 0.3; }
+    to   { opacity: 1; }
+}
+</style>
+
+<script>
+function updateCountdown() {
+    const now = new Date();
+    let year = now.getFullYear();
+    let target = new Date(year, 11, 25); // Noel 25/12
+
+    if (now > target) { target = new Date(year + 1, 11, 25); }
+
+    const diff = target - now;
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+    const minutes = Math.floor((diff / (1000 * 60)) % 60);
+    const seconds = Math.floor((diff / 1000) % 60);
+
+    document.getElementById("count").innerHTML = 
+        `<span style="color:#7dfcff">${days}</span> ngày - 
+         ${String(hours).padStart(2,"0")} :
+         ${String(minutes).padStart(2,"0")} :
+         ${String(seconds).padStart(2,"0")}`;
+}
+setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>
+    <h1>Noel 2025 là ngày nào? Ngu?n g?c và ý nghia c?a ngày Giáng sinh</h1>
+    <div class="post-info">Ngày Noel ch?ng ph?i ch? là mùa dông v?i tuy?t tr?ng, là cây thông l?p lánh gi?a tr?i. Noel là kho?nh kh?c tinh khôi m?i ngu?i l?ng nghe t?ng nh?p yêu thuong dong d?y, d? dón nh?n và s? chia. Noel là mùa c?a lòng bi?t on, c?a nh?ng di?u gi?n d? nhung r?c r? nh?t. Cùng theo chân MIA.vn tìm hi?u v? nh?ng ngày l? h?i d?p nh?t trong nam nhé.</div>
+
+    <!-- XEM NHANH -->
+    <div class="toc-box">
+        <b>Xem nhanh</b>
+        <ul>
+            <li><a href="#muc1" class="main">1. Noel ngày nào? Bao nhiêu ngày n?a d?n Noel 2025?</a></li>
+            <li data-target="sub2"><a class="main">2. Ngu?n g?c và ý nghia</a>
+                <ul class="toc-sub" id="sub2">
+                    <li><a href="#muc21">2.1 Ngu?n g?c</a></li>
+                    <li><a href="#muc22">2.2 Ý nghia</a></li>
+                    <li><a href="#muc23">2.3 Bi?u tu?ng c?a ngày Noel là gì?</a></li>
+                </ul>
+            </li>
+            <li><a href="#muc3" class="main">3. Ði?m d?c bi?t</a></li>
+            <li data-target="sub4"><a class="main">4. Phân bi?t ngày 24 & 25</a>
+                <ul class="toc-sub" id="sub4">
+                    <li><a href="#muc41">4.1 Ngày 24</a></li>
+                    <li><a href="#muc42">4.2 Ngày 25</a></li>
+                </ul>
+            </li>
+            <li data-target="sub5"><a class="main">5. Ho?t d?ng Noel</a>
+                <ul class="toc-sub" id="sub5">
+                    <li><a href="#muc51">5.1 Trang trí cây thông</a></li>
+                    <li><a href="#muc52">5.2 Check-in Giáng sinh</a></li>
+                    <li><a href="#muc53">5.3 T?ng quà</a></li>
+                    <li><a href="#muc54">5.4 S? ki?n van ngh?</a></li>
+                    <li><a href="#muc55">5.5 Ði l? nhà th?</a></li>
+                    <li><a href="#muc56">5.6 G?i thi?p</a></li>
+                    <li><a href="#muc57">5.7 Không khí Noel th? gi?i</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <!-- N?I DUNG -->
+    <h2 id="muc1">1. Noel ngày nào? Bao nhiêu ngày n?a d?n Noel 2025?</h2>
+    <p style="color:#ffffff;">
+     Noel hay còn g?i là l? Giáng sinh di?n ra vào dêm 24 và kéo dài d?n h?t ngày 25/12 hàng nam. Noel nam 2025 roi vào th? Tu ngày 24 tháng 12 (L? V?ng Giáng Sinh) và th? Nam ngày 25 tháng 12 (L? chính th?c). 
+    </p>
+     <p style="color:#ffffff;">
+     Nhu v?y tính t? th? Sáu 05/12/2025 thì ch? còn 20 ngày n?a là d?n Noel 2025. Ðây là d?p d?c bi?t trong nam, khi m?i ngu?i trên th? gi?i d?u cùng nhau hòa vào b?u không khí tràn ng?p yêu thuong và l?i chúc t?t d?p.
+    </p>
+    <p style="color:#ffffff;">
+Ð?i v?i ngu?i Công giáo thì ngày Noel là m?t trong hai d?p l? l?n và thiêng liêng nh?t trong nam bên c?nh d?p l? Ph?c sinh. Ðêm 24 là ngày Chúa Jesus sinh ra t?i Bethlehem, x? Judea c?a nu?c Do Thái.
+    </p>
+    <p style="color:#ffffff;">
+ Vì th?, d?i v?i ngu?i Công giáo, thì Noel còn có cái tên khác là Christmas (Chist Mass), Emmanuel (Thiên Chúa ? cùng chúng ta) hay l? Thiên Chúa Giáng sinh làm Ngu?i. S? ra d?i c?a Ngu?i th? hi?n tình yêu c?a Thiên Chúa Cha dành cho tr?n gian, d?n d? Ngu?i sai Con M?t xu?ng th? làm ngu?i d? c?u gian tr?n.
+    </p>
+    <p style="color:#ffffff;">
+Ngày nay, Noel là d?p l? l?n trên toàn th? gi?i, vu?t qua ranh gi?i tôn giáo. Ðây là d?p d? m?i ngu?i cùng nhau quây qu?n bên cây thông, t?ng nhau nh?ng món quà và l?i chúc ?m áp nh?t.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/tM0Zcrx8/ngay-noel-1-1730056840.jpg"
+    </div>
+    <p style="color:#ffffff;">
+Không khí Giáng sinh dang d?n g?n, ch? còn vài tháng n?a mùa dông l?i tràn v?, cu?n theo nh?ng d?t gió l?nh và s? mong ch? l?p lánh trong m?t tr? tho. Càng g?n d?n ngày 24 tháng 12, kh?p noi b?t d?u b?ng sáng v?i s?c dèn, nh?ng bài hát Giáng sinh vang lên t? c?a hi?u, nhà hàng, góc ph?.
+    </p>
+    <h2 id="muc2">2. Ngu?n g?c và ý nghia</h2>
+    <h2 id="muc21">2.1 Ngu?n g?c</h2><p>Ngày Noel g?n li?n v?i bi?n c? Chúa Jesus xu?ng th? làm ngu?i d? c?u chu?c nhân tr?n. Theo sách Phúc âm Thánh Luca và Matthew, M? Maria h? sinh Hài nhi Jesus trong chu?ng súc v?t t?i vùng Bethlehem, vào kho?ng 12 gi? dêm ngày 24 tháng 12.
+    </p>
+    <p>
+      Ngày ?y, Hoàng d? La Mã và Sê-da Au-gút-tô l?nh ngu?i Do Thái tr? v? thành d? dang ký tên vào s?. Thánh Joseph (Thánh c? Giuse), lúc b?y gi? tram nam c?a M? Maria,dã dua M? lên du?ng v? Bethlehem.
+    </p>
+    <p>
+      Vì d?n Bethlehem không tìm du?c nhà tr? nên dêm M? và Thánh Joseph ph?i ngh? t?i chu?ng súc v?t. Ðúng lúc ?y, M? dã h? sinh Hài nhi Jesus, l?y vài qu?n tã mà Ngài mang theo qu?n l?i và d?t vào máng c?.
+    </p>
+    <p>
+      Vào th?i kh?c ?y, ? g?n Bethlehem có nh?ng ngu?i chan c?u dang ? ngoài d?ng d? trông gi? b?y chiên. S? th?n c?a Thiên Chúa hi?n ra tru?c m?t h? và phán r?ng: Ð?ng s?! Ta báo cho anh em m?t tin m?ng. Hôm nay, Ð?ng Messiah dã giáng th? d? c?u d? nhân lo?i. Cùng lúc ?y, thiên binh trên tr?i c?t ti?ng vang l?ng: Vinh danh Thiên Chúa trên tr?i, bình an du?i th? cho loài ngu?i.
+    </p>
+    <p>
+      Ngay lúc dó, nh?ng ngu?i chan c?u cùng nhau v?i vã d?n Bethlehem. H? g?p M? Maria và Thánh Giuse, th?y Hài nhi n?m trong máng c? dúng nhu l?i s? th?n nói. H? k? l?i l?i thiên s? cho m?i ngu?i xung quanh, ai n?y nghe xong cung d?u vui m?ng.
+    </p>
+    <p>
+      10 ngày sau, m?t ngôi sao sáng dã d?n du?ng cho ba v? vua phuong Ðông d?n bái l?y. H? mang theo vàng, nhu huong, m?c du?c d? dâng lên và tôn kính Ð?ng C?u Th?. Sau dó, h? du?c báo ph?i di du?ng khác d? tr? v? x? mình.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/5gwBQ9vw/ngay-noel-2-1730056840.jpg"
+    </div>
+    <h2 id="muc22">2.2 Ý nghia</h2><p>
+      Nhu MIA.vn dã chia s?, ngày Noel là m?t trong hai d?p l? l?n và quan tr?ng nh?t c?a tín d?.Thiên Chúa giáo. Ðây là d?p d? m?i ngu?i cùng nhau tham d? Thánh l? d? tr? v? hon 2000 nam tru?c, hi?u hon v? tình yêu mà Thiên Chúa dành cho ch?n tr?n gian.
+    </p>
+
+    <p>Ð?i v?i m?i noi trên th? gi?i, Noel là d?p d? m?i ngu?i cùng nhau quây qu?n bên bàn an ?m cúng. M?i ngu?i cùng nhau trang hoàng nhà c?a v?i cây thông lung linh, hát châu da màu s?c,hang dá ?m cúng. Vào d?p l?, m?i ngu?i cung nhau thu?ng th?c b?a ti?c t?i v?i bánh khúc cây (yule log), trao nhau nh?ng món quà và l?i chúc t?t d?p nh?t.
+    </p>
+     <div class="hero">
+      <img src="https://i.ibb.co/gF3gKN7Z/ngay-noel-3-1730056840.jpg"
+    </div>
+    <h2 id="muc23">2.3 Bi?u tu?ng c?a ngày Noel là gì?</h2>  <p style="color:#ffffff;">
+      Noel s? không tr?n v?n n?u thi?u di nh?ng bi?u tu?ng quen thu?c, nhu cây thông Giáng sinh r?c r? gi?a phòng khách, v?i nh?ng qu? c?u, dây dèn và ngôi sao l?p lánh trên d?nh.
+    </p>
+
+    <ul style="margin-top:0; padding-left:28px; line-height:1.7; font-size:15px; color:#ffffff; font-weight:500;">
+      <li>
+        Hang dá, máng c? v?i tu?ng Chúa Hài d?ng, M? Maria, Thánh c? Joseph, tu?ng c?u, chiên, bò. Ðây là hình ?nh bi?u tu?ng g?n li?n v?i bi?n c? Ngôi Hai xu?ng th? làm ngu?i.
+      </li>
+
+      <li>
+        Cây thông g?n li?n v?i bi?n c? Thánh Boniface c?u m?t d?a tr? trong bu?i t? th?n khi hành huong. Thánh Boniface dã d?n h? cây s?i v?i m?t cú d?m. ? noi cây s?i cu dã m?c lên m?t cây thông nh?, bi?u trung cho s? s?ng và cu?c s?ng vinh h?ng c?a Ð?ng c?u th?.
+      </li>
+
+      <li>
+        Vòng nguy?t qu? là bi?u tu?ng c?a s? s?ng d?i d?i và tình yêu vô t?n c?a Chúa dành cho gian tr?n. Màu xanh là d?i di?n c?a hy v?ng, v?i u?c ao Ngôi Hai s? gi?i thoát gian tr?n kh?i ách kh? dau.
+      </li>
+
+      <li>
+        Ngôi sao là hình ?nh quen thu?c trên d?nh m?i cây thông. Ðây là hình ?nh g?n li?n v?i bi?n c? ngôi sao d?n du?ng cho ba vua dang trình d?n bái l?y Con Thiên Chúa khi Ngu?i xu?ng th?.
+      </li>
+
+      <li>
+        Nh?ng món quà v?i gi?y gói xinh x?o và thi?p cùng l?i chúc ý nghia. Ðây là van hóa kh?i ngu?n t? nam 1843, khi thuong gia ngu?i Anh Hnery Cole nh? John Callcott Horsley thi?t k? t?m thi?p d? t?ng b?n bè. D?n dà, quà và thi?p tr? thành m?t ph?n không th? thi?u c?a d?p Giáng sinh.
+      </li>
+    </ul>
+    <div class="hero">
+      <img src="https://i.ibb.co/Mx1TfSDt/ngay-noel-4-1730056839.jpg"
+    </div>
+    <h2 id="muc3">3. Ði?m d?c bi?t</h2><p style="color:#ffffff;">
+      Noel là th?i di?m d?c bi?t nh?t c?a mùa dông, khi du?ng ph? sáng b?ng ánh dèn, khi lòng 
+      ngu?i cung sáng lên ni?m hy v?ng và tình yêu thuong. Ngu?i ta háo h?c chu?n b? t?ng chi ti?t, 
+      t? cây thông d?n nh?ng món quà cho ngu?i thân.
+    </p>
+
+   <p style="color:#ffffff;">
+      T?i các nu?c phuong Tây, ngu?i ta có truy?n th?ng t? ch?c các h?i ch? Giáng sinh v?i d? 
+      lo?i s?n ph?m th? công, bánh k?o và nh?ng v?t trang trí d?c trung. Ði d?o gi?a không gian ?y, 
+      b?n s? c?m nh?n du?c Noel không ch? là m?t ngày l? mà là c? m?t th? gi?i huy?n di?u, d?y s?c màu 
+      và ?m áp.
+    </p>
+
+    <!-- Dòng Xem thêm -->
+    <p style="margin-top:10px;">
+  <a href="https://www.google.com/search?q=Noel+%C4%91i+%C4%91%C3%A2u%3F+Top+8+%C4%91%E1%BB%8Ba+%C4%91i%E1%BB%83m+vui+ch%C6%A1i%2C+check+in+Noel+lung+linh+%E1%BB%9F+qu%E1%BA%A3ng+Ng%C3%A3i&rlz=1C1FHFK_viVN1159VN1159&oq=Noel+%C4%91i+%C4%91%C3%A2u%3F+Top+8+%C4%91%E1%BB%8Ba+%C4%91i%E1%BB%83m+vui+ch%C6%A1i%2C+check+in+Noel+lung+linh+%E1%BB%9F+qu%E1%BA%A3ng+Ng%C3%A3i&aqs=chrome..69i57.5870j0j7&sourceid=chrome&ie=UTF-8" 
+     style="color:#d6362f; text-decoration:underline; font-style:italic;" 
+     target="_blank">
+    Xem thêm: Noel di dâu? Top 8 d?a di?m vui choi, check in Noel lung linh ? qu?ng Ngãi
+  </a>
+</p>
+
+    <h2 id="muc4">4. Phân bi?t ngày 24 & 25</h2>
+    <h2 id="muc41">4.1 Ngày 24</h2> <p style="color:#ffffff;">
+     Theo Giáo h?i Công giáo, ngày 24 là dêm v?ng Ph?c sinh. Ðây là dêm tru?c khi Chúa Jesus chào d?i, và là th?i kh?c thiêng liêng c?a d?t tr?i. Trong dêm 24, m?i ngu?i s? cùng nhau di l? và tham d? Thánh l? V?ng Giáng sinh. M?i ngu?i s? cùng nhau xem màn bi?u di?n di?n t? bi?n c? nam xua, l?ng nghe Phúc Âm, Kinh Thánh v?i nh?ng bài d?c da t?ng ý nghia, nh?ng bài Thánh ca ngân vang, l?i c?u nguy?n thành kính. Ðêm Noel cung là dêm mà các gia dình quây qu?n bên nhau, cùng thu?ng th?c b?a ti?c nh?, trao nhau nh?ng món quà và l?i chúc t?t d?p.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/1GV6rhKM/ngay-noel-5-1730056839.jpg"
+    </div>
+    <h2 id="muc42">4.2 Ngày 25</h2> <p style="color:#ffffff;">
+     Ngày 25 tháng 12, ngày chính c?a l? Noel, là lúc mà ni?m vui th?t s? ng?p tràn. Bu?i sáng ngày Noel, tr? em háo h?c th?c d?y, ch?y d?n cây thông d? m? nh?ng món quà c?a ông già Noel dã lén d?t t? dêm tru?c.
+    </p>
+     <p style="color:#ffffff;">
+     Ðây là ngày c?a nh?ng cái ôm, c?a nh?ng câu chuy?n ?m lòng, c?a nh?ng kho?nh kh?c tràn d?y ni?m vui và yêu thuong. Ngu?i ta thu?ng dành tr?n c? ngày d? thu giãn, an u?ng, cùng b?n bè và gia dình thu?ng th?c không khí Giáng sinh, t?o nên nh?ng k? ni?m dáng nh?.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/PsKy5Qk3/ngay-noel-6-1730056839.jpg"
+    </div>
+    <h2 id="muc5">5. Ho?t d?ng Noel</h2>
+    <h2 id="muc51">5.1 Trang trí cây thông</h2> <p style="color:#ffffff;">
+Trang trí cây thông Noel là m?t truy?n th?ng lâu d?i, du?c truy?n t? th? h? này qua th? h? khác. M?i gia dình d?u ch?n cho mình m?t cây thông d?p nh?t, và dành hàng gi? d? treo nh?ng qu? c?u, dây dèn, dây kim tuy?n và ngôi sao trên d?nh cây. Cây thông không ch? làm sáng b?ng không gian mà còn t?o nên m?t b?u không khí d?m ?m, nhu m?t l?i h?a h?n v? m?t nam m?i tràn d?y hy v?ng và may m?n.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/hRHTc11y/ngay-noel-7-1730056839.jpg"
+    </div>
+    <h2 id="muc52">5.2 Check-in Giáng sinh</h2> <p style="color:#ffffff;">
+     B?a ti?c Giáng sinh là m?t ph?n quan tr?ng trong l? Noel. M?i gia dình chu?n b? nh?ng món an truy?n th?ng nhu gà nu?ng, bánh khúc cây, khoai tây nghi?n và ru?u vang nóng. M?i ngu?i quây qu?n bên nhau, v?a an u?ng, v?a chia s? nh?ng câu chuy?n vui v?, ôn l?i nh?ng k? ni?m d?p trong nam qua. Trong b?a ti?c Giáng sinh, không ch? có th?c an ngon mà còn có s? ?m áp c?a tình thân, c?a nh?ng ngu?i b?n yêu quý.
+    </p>
+    <h2 id="muc53">5.3 T?ng quà</h2> <p style="color:#ffffff;">
+     Noel là mùa c?a nh?ng món quà, nh?ng t?m thi?p chan ch?a tình c?m. M?i ngu?i chu?n b? t?ng món quà m?t cách t? m?, t? nh?ng chi?c khan len ?m áp, tách trà nóng h?i d?n nh?ng b?c tranh t? tay v?. M?i món quà d?u mang theo thông di?p yêu thuong và s? bi?t on, là cách d? bày t? tình c?m và s? quan tâm d?n ngu?i thân yêu. Ngoài ra, nh?ng t?m thi?p Giáng sinh du?c trang trí b?ng tay, v?i dòng ch? "Merry Christmas" gi?n d? nhung chân thành, cung là m?t ph?n quan tr?ng trong d?p này.
+    </p>
+    <h2 id="muc54">5.4 S? ki?n van ngh?</h2> <p style="color:#ffffff;">
+     Các bu?i hòa nh?c Giáng sinh, h?i ch? mùa dông, các v? k?ch tái hi?n c?nh Chúa giáng sinh hay các bu?i trình di?n ánh sáng là nh?ng ho?t d?ng van hóa không th? thi?u. Nh?ng s? ki?n này t?o nên không khí sôi d?ng, náo nhi?t, giúp m?i ngu?i hi?u hon v? truy?n th?ng và van hóa c?a ngày l? Giáng sinh.
+    </p>
+     <p style="color:#ffffff;">
+      Nh?ng b?n nh?c Giáng sinh b?t h? vang lên, nh?ng ánh dèn lung linh r?c r? soi sáng không gian, t?t c? t?o nên m?t b?c tranh Noel lung linh và lãng m?n.
+    </p>
+    <h2 id="muc55">5.5 Ði l? nhà th?</h2> <p style="color:#ffffff;">
+     Ð?i v?i ngu?i Công giáo, tham d? thánh l? Noel là m?t ph?n thiêng liêng c?a ngày l?. T?i nhà th?, m?i ngu?i cùng nhau c?u nguy?n, l?ng nghe l?i ran c?a Chúa và hát thánh ca.
+    </p>
+     <p style="color:#ffffff;">
+      Khung c?nh nhà th? trong dêm Noel luôn tràn ng?p ánh n?n và s? trang nghiêm, khi?n lòng ngu?i thanh th?n và bình yên. Thánh l? Noel giúp ngu?i tham d? c?m nh?n du?c tình yêu và lòng t? bi, là m?t cách d? c?m t? và k?t n?i v?i Chúa.
+    </p>
+    <div class="hero">
+      <img src="https://i.ibb.co/p6PVybHR/ngay-noel-8-1730056839.jpg"
+    </div>
+    <h2 id="muc56">5.6 G?i thi?p</h2> <p style="color:#ffffff;">
+     Các trung tâm thuong m?i và khu vui choi d?u bày trí ông già Noel ng?i bên nh?ng cây thông, t?o nên m?t không gian d?m ch?t Giáng sinh. Tr? em, và th?m chí c? ngu?i l?n, d?u háo h?c ch?p ?nh cùng ông già Noel, nhu m?t cách d? luu gi? k? ni?m d?p v? mùa Noel. C?m giác ng?i bên c?nh ông già Noel v?i b? râu tr?ng, n? cu?i hi?n t?, khi?n m?i ngu?i c?m th?y nhu s?ng l?i trong nh?ng gi?c mo c? tích.
+    </p>
+     <p style="color:#ffffff;">
+     Trên dây là nh?ng di?u thú v? và ý nghia v? ngày Noel, t? ngu?n g?c, bi?u tu?ng d?n các ho?t d?ng n?i b?t trong ngày l? Giáng sinh. Hy v?ng qua bài vi?t này, b?n s? c?m nh?n du?c tr?n v?n tinh th?n Giáng sinh và chu?n b? cho mình m?t mùa Noel th?t ?m áp, vui v? cùng nh?ng ngu?i thân yêu. Noel không ch? là m?t ngày l?, mà còn là kho?nh kh?c d? chúng ta nhìn l?i và c?m nh?n giá tr? c?a tình yêu thuong trong cu?c s?ng.
+    </p>
+    <h2 id="muc57">5.7 Không khí Noel th? gi?i</h2><p style="color:#ffffff;">
+     Noel là m?t d?p l? l?n trong van hóa th? gi?i. Vì th?, t?i m?i d?t nu?c s? có m?t cách chào dón ngày l? này khác nhau. Nh?ng qu?c gia v?i các l? h?i mà b?n có th? tham gia d? hòa cùng b?u không khí Noel có th? k? d?n nhu:
+    </p>
+    <ul style="margin-top:0; padding-left:28px; line-height:1.7; font-size:15px; color:#ffffff; font-weight:500;">
+
+      <li>
+       Nh?t B?n: Ðây là m?t trong nh?ng qu?c gia châu Á t? ch?c ngày Noel hoành tráng và d?c s?c nh?t. Có nhi?u s? ki?n h?p d?n s? du?c di?n ra trong th?i gian này, nhu L? h?i ánh sáng Sapporo, Ðu?ng h?m ánh sáng t?i Mie. Ngoài ra, Universal Studios cung là m?t d?a di?m thu hút dông d?o m?i ngu?i vào d?p Noel.
+      </li>
+
+      <li>
+        Hàn Qu?c: Qu?c gia này thu hút dông d?o m?i ngu?i ghé d?n vào d?p Noel. Các tr?i nghi?m h?p d?n mà b?n không nên b? l? nhu vui choi t?i Qu?ng tru?ng Cheonggyecheon, di l? t?i Nhà th? Myeongdong, v.v.
+      </li>
+
+      <li>
+        Singapore: Noel là m?t trong nh?ng mùa nh?n nh?p và náo nhi?t nh?t t?i d?o qu?c su t?. Có nhi?u ho?t d?ng dành cho b?n khi d?n Singapore vào d?p Giáng sinh, ví d? nhu tham quan Universals, chiêm ngu?ng d?i ti?c ánh sáng t?i Gardén by the Bay, hòa cùng b?u không khí náo nhi?t t?i Orchard Road, v.v.
+      </li>
+
+      <li>
+        Vi?t Nam: Có nhi?u ho?t d?ng chào dón mùa Giáng sinh t?i Vi?t Nam. B?n có th? tham d? Thánh l? t?i các nhà th?, tham quan Ðà L?t v?i b?u không khí se se l?nh, v.v.
+      </li>
+    </ul>
+    <p   style="color:#1ba8ff; font-weight:600; text-decoration:underline; font-style:italic;">
+     Trên dây là nh?ng di?u thú v? và ý nghia v? ngày Noel, t? ngu?n g?c, bi?u tu?ng d?n các ho?t d?ng n?i b?t trong ngày l? Giáng sinh. Hy v?ng qua bài vi?t này, b?n s? c?m nh?n du?c tr?n v?n tinh th?n Giáng sinh và chu?n b? cho mình m?t mùa Noel th?t ?m áp, vui v? cùng nh?ng ngu?i thân yêu.
+    </p>
+        
+
+    <!-- THÊM LIÊN K?T ? ÐÂY -->
+    <p style="text-align:center; margin-top:30px;">
+      <a href="trang1.html" 
+         style="display:inline-block; padding:12px 20px; background:#00b7ff; color:white; 
+                text-decoration:none; border-radius:8px; font-weight:600; box-shadow:0 0 12px cyan;">
+        ? Xem Các Thành Viên Nhóm
+      </a>
+    </p>
+</div>
+
+<!-- SCRIPT TUY?T ROI & Toggle Sub -->
+<script>
+// Tuy?t roi
+const canvas = document.getElementById('snow-canvas');
+const ctx = canvas.getContext('2d');
+const canvas2 = document.getElementById('snow-canvas2');
+const ctx2 = canvas2.getContext('2d');
+let W = canvas.width = innerWidth;
+let H = canvas.height = innerHeight;
+canvas2.width = W; canvas2.height = H;
+window.addEventListener('resize', () => { W=canvas.width=innerWidth; H=canvas.height=innerHeight; canvas2.width=W; canvas2.height=H; });
+function rand(min,max){ return Math.random()*(max-min)+min; }
+class FlakeRound { constructor(){this.reset(true);} reset(initial=false){this.x=rand(0,W);this.y=initial?rand(0,H):rand(-50,-10);this.size=rand(1,4);this.speed=rand(0.3,1.5);this.wind=rand(-0.3,0.3);this.alpha=0.5+Math.random()*0.5;} update(){this.y+=this.speed;this.x+=this.wind;if(this.y>H)this.reset(false);} draw(ctx){ctx.beginPath();ctx.globalAlpha=this.alpha;ctx.arc(this.x,this.y,this.size,0,Math.PI*2);ctx.fillStyle="#fff";ctx.fill();} }
+class SnowStar { constructor(){this.reset(true);} reset(initial=false){this.x=rand(0,W);this.y=initial?rand(0,H):rand(-80,-20);this.size=rand(4,9);this.speed=rand(0.4,1.2);this.spin=rand(-0.02,0.02);this.angle=rand(0,Math.PI*2);} update(){this.y+=this.speed;this.angle+=this.spin;if(this.y>H+20)this.reset(false);} draw(ctx){ctx.save();ctx.translate(this.x,this.y);ctx.rotate(this.angle);ctx.strokeStyle="white";ctx.lineWidth=1;ctx.beginPath();for(let i=0;i<6;i++){ctx.moveTo(0,0);ctx.lineTo(this.size,0);ctx.rotate(Math.PI/3);} ctx.stroke(); ctx.restore();}}
+let flakesRound=[],snowStars=[];
+for(let i=0;i<150;i++) flakesRound.push(new FlakeRound());
+for(let i=0;i<50;i++) snowStars.push(new SnowStar());
+function animate(){ctx.clearRect(0,0,W,H);ctx2.clearRect(0,0,W,H); flakesRound.forEach(f=>{f.update();f.draw(ctx);}); snowStars.forEach(s=>{s.update();s.draw(ctx2);}); requestAnimationFrame(animate);}
+animate();
+
+// Toggle sub menu
+document.querySelectorAll('.toc-box li[data-target]').forEach(item=>{
+    item.addEventListener('click', ()=> {
+        const sub = document.getElementById(item.dataset.target);
+        sub.style.display = (sub.style.display==='block') ? 'none' : 'block';
+    });
+});
+</script>
+</body>
+</html>
